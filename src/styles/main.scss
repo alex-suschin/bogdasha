@@ -17,7 +17,8 @@ body {
     position: relative;
     background: #fff;
     -webkit-tap-highlight-color: transparent;
-    overflow: visible;
+    overflow-y: visible;
+    overflow-x: hidden;
 }
 
 div,
@@ -50,11 +51,11 @@ input:focus {
 }
 
 p {
-    color: #252525;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 29px;
-    margin: 0 0 10px 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+    color: #603320;
+    margin: 0 0 21px 0;
 }
 
 input {
@@ -106,11 +107,11 @@ button {
 }
 
 .title {
-    color: #fff;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 53px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 105%;
     text-transform: uppercase;
+    color: #603320;
     margin-bottom: 20px;
 }
 
@@ -150,4 +151,36 @@ img {
       B U T T O N S
   */
 
-.btn {}
+a.link {
+    display: block;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    color: #603320;
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+a.link::after {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 15px;
+    background: url(../img/svg/arr-link.svg) no-repeat center;
+    position: absolute;
+    top: 1px;
+    right: -27px;
+}
+
+.btn {
+    display: block;
+    background: #F5E5D7;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    line-height: 100%;
+    color: #603320;
+    padding: 12px 0 15px 0;
+}

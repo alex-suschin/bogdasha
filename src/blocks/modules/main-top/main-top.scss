@@ -1,0 +1,28 @@
+.main-top {
+    position: relative;
+    padding: 183px 0 357px 408px;
+    background: url(../img/top-decor.png) no-repeat center;
+    z-index: 5;
+    .title {
+        margin-bottom: 37px;
+    }
+    p {
+        width: 38%;
+    }
+    .btn {
+        max-width: 186px;
+        margin-top: 42px;
+    }
+}
+
+.top-img {
+    position: absolute;
+    top: 114px;
+    right: 79px;
+    max-width: 923px;
+    width: 100%;
+    height: 849.55px;
+    background: url(../img/top-img.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
