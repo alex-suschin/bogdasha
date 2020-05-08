@@ -184,3 +184,35 @@ a.link::after {
     color: #603320;
     padding: 12px 0 15px 0;
 }
+
+.ov-h {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    p,
+    a.link {
+        font-size: 16px!important;
+    }
+    .cooperation-main .link::after {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .title {
+        font-size: 25px;
+    }
+}

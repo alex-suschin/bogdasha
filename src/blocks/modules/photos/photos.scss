@@ -20,3 +20,10 @@
         object-position: center;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .photos__item {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}

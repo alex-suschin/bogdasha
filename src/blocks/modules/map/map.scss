@@ -70,3 +70,52 @@
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .map {
+        height: 450px;
+    }
+    .map-contacts {
+        max-width: 350px;
+        padding: 15px;
+        top: 310px;
+    }
+    .map-contacts--title {
+        font-size: 24px;
+    }
+    .map-contacts--address {
+        font-size: 14px;
+    }
+    .map-contacts a {
+        font-size: 14px;
+    }
+    .map-contacts--phone a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .map {
+        height: 500px;
+    }
+    .map-contacts {
+        max-width: 260px;
+        padding: 8px;
+        top: 385px;
+        left: 10px;
+    }
+    .map-contacts--title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .map-contacts--address {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .map-contacts a {
+        font-size: 12px;
+    }
+    .map-contacts--phone a {
+        font-size: 12px;
+    }
+}
