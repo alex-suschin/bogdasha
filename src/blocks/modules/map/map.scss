@@ -48,3 +48,25 @@
     line-height: 120%;
     color: #603320;
 }
+
+@media screen and (max-width: 1600px) {
+    .map-contacts {
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .map {
+        height: 650px;
+    }
+    .map-contacts {
+        max-width: 420px;
+        padding: 20px;
+    }
+    .map-contacts--title {
+        font-size: 28px;
+    }
+    .map-contacts--address {
+        font-size: 16px;
+    }
+}

@@ -80,3 +80,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1440px) {
+    .header-box {
+        padding: 0 40px;
+    }
+}

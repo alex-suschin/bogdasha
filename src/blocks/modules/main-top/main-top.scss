@@ -26,3 +26,31 @@
     background-size: cover;
     z-index: -1;
 }
+
+@media screen and (max-width: 1860px) {
+    .main-top {
+        padding: 183px 0 357px 208px;
+    }
+    .top-img {
+        right: -20px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .main-top {
+        padding: 183px 25px 357px 100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .main-top {
+        padding: 183px 25px 357px 50px;
+        background-size: contain;
+    }
+    .top-img {
+        max-width: 650px;
+        width: 100%;
+        height: 599px;
+        background-size: contain;
+    }
+}

@@ -69,3 +69,27 @@
     height: 103px;
     background: url(../img/leaf1.png) no-repeat center;
 }
+
+@media screen and (max-width: 1800px) {
+    .production-main {
+        padding: 486px 0 468px 240px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .production-main {
+        padding: 486px 0 468px 100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .production-main {
+        padding: 486px 0 468px 50px;
+    }
+    .main-peod-img {
+        max-width: 900px;
+        width: 100%;
+        height: 602px;
+        background-size: contain;
+    }
+}

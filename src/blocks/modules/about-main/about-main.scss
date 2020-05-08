@@ -29,3 +29,27 @@
     background: url(../img/about-img-main.png) no-repeat center;
     z-index: -1;
 }
+
+@media screen and (max-width: 1860px) {
+    .about-main-img {
+        left: -60px;
+    }
+    .about-main__box-info {
+        float: right;
+        width: 38.25%;
+        padding: 0 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .about-main-img {
+        max-width: 900px;
+        width: 100%;
+        top: 117px;
+        height: 590px;
+        background-size: contain;
+    }
+    .about-main__box-info {
+        width: 44%;
+    }
+}
