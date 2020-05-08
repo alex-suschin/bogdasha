@@ -1,0 +1,50 @@
+.map {
+    height: 1051px;
+    position: relative;
+}
+
+.map-contacts {
+    position: absolute;
+    top: 50%;
+    left: 343px;
+    background: #FCFAFA;
+    border-radius: 12px;
+    padding: 34px 60px 33px 33px;
+    max-width: 546px;
+    width: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    a {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 120%;
+        color: #603320;
+    }
+}
+
+.map-contacts--title {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 105%;
+    text-transform: uppercase;
+    color: #603320;
+    margin-bottom: 25px;
+}
+
+.map-contacts--address {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #603320;
+    margin-bottom: 29px;
+}
+
+.map-contacts--phone a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #603320;
+}
