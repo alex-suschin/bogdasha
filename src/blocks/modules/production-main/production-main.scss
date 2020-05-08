@@ -42,6 +42,14 @@
     left: 0;
 }
 
+.about-wrap .production-main {
+    padding: 486px 0 616px 390px;
+}
+
+.about-wrap .production-main:after {
+    bottom: -36px;
+}
+
 .main-peod-img {
     position: absolute;
     top: 225px;
