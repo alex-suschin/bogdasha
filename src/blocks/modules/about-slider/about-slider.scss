@@ -233,3 +233,9 @@
         top: 108%;
     }
 }
+
+@media screen and (max-width: 475px) {
+    .about-slider {
+        padding: 50px 20px 110px 20px;
+    }
+}

@@ -104,4 +104,10 @@
         height: 227px;
         background-size: cover;
     }
+    .about-wrap .cooperation-main:before {
+        content: none;
+    }
+    .about-wrap .cooperation-main {
+        padding: 45px 0 80px 0;
+    }
 }

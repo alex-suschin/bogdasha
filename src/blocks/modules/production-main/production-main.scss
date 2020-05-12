@@ -123,10 +123,10 @@
 
 @media screen and (max-width: 992px) {
     .production-main {
-        padding: 128px 20px 498px 20px;
+        padding: 128px 20px 150px 20px;
     }
     .about-wrap .production-main {
-        padding: 128px 20px 750px 20px;
+        padding: 128px 20px 450px 20px;
     }
     .production-main:before {
         top: -300px;
@@ -138,11 +138,6 @@
         position: static;
         float: right;
         margin-right: -20px;
-    }
-    .production-main:after {
-        content: '';
-        display: table;
-        clear: both;
     }
     .production-main:after {
         bottom: -300px;
@@ -161,5 +156,26 @@
     }
     .about-wrap .production-main {
         padding: 128px 20px 550px 20px;
+    }
+    .production-main:before {
+        top: -25px;
+        height: 105px;
+        background-size: contain;
+    }
+    .about-wrap .production-main:after {
+        bottom: -55px;
+        height: 105px;
+        background-size: contain;
+    }
+    .production-main:after {
+        bottom: -55px;
+        height: 105px;
+        background-size: contain;
+    }
+    .about-wrap .production-main {
+        padding: 128px 20px 80px 20px;
+    }
+    .production-main {
+        padding: 128px 20px 80px 20px;
     }
 }
