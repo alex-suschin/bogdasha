@@ -1,5 +1,5 @@
 .footer {
-    padding: 99px 0 105px 0;
+    padding: 56px 0 105px 0;
 }
 
 .footer-top {
@@ -33,6 +33,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 18px 17px 0 0;
 }
 
 .social-footer {
@@ -41,23 +42,23 @@
     justify-content: start;
     .soc {
         margin-right: 16px;
-        background-color: #7D4D38;
+        background-color: #F9E1CD;
     }
     .soc:last-child {
         margin-right: 0;
     }
     .fb {
-        background-image: url(../img/svg/fb-white.svg);
+        background-image: url(../img/svg/fb.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
     .inst {
-        background-image: url(../img/svg/inst-white.svg);
+        background-image: url(../img/svg/inst.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
     .tube {
-        background-image: url(../img/svg/tube-white.svg);
+        background-image: url(../img/svg/tube.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -69,18 +70,18 @@
     justify-content: start;
     a {
         font-weight: normal;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 100%;
         color: #804E3D;
-        margin-right: 41px;
+        margin-right: 76px;
     }
     span {
         font-weight: normal;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 100%;
         color: #804E3D;
         display: block;
-        margin-right: 50px;
+        margin-right: 152px;
     }
     .promo {
         margin-right: 0;

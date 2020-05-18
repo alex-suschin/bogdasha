@@ -135,10 +135,12 @@ img {
     clear: both;
 }
 
-.wrapper {
-    position: relative;
-}
-
+// .wrapper {
+//     position: relative;
+//     background: url(../img/decore.png) no-repeat center 80px;
+//     background-size: contain;
+//     z-index: 1;
+// }
 .container {
     max-width: 1430px;
     padding: 0 10px;
@@ -175,7 +177,7 @@ a.link::after {
 
 .btn {
     display: block;
-    background: #F5E5D7;
+    background: #F9E1CD;
     border-radius: 12px;
     font-weight: 600;
     font-size: 15px;
@@ -185,8 +187,17 @@ a.link::after {
     padding: 12px 0 15px 0;
 }
 
+.btn:hover {
+    background: #F8CDA8;
+}
+
 .ov-h {
     overflow: hidden;
+}
+
+.clear {
+    display: table;
+    clear: both;
 }
 
 @media screen and (max-width: 992px) {

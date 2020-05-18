@@ -1,58 +1,27 @@
 .production-main {
-    padding: 486px 0 468px 390px;
-    background: #F6F6F6;
+    padding: 334px 0 445px 366px;
+    background: #fff;
     position: relative;
+    z-index: 5;
     .title {
         margin-bottom: 33px;
     }
     p {
         width: 28%;
-        margin-bottom: 33px;
+        margin-bottom: 31px;
     }
-}
-
-.production-main:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 425px;
-    background: url(../img/cont-decor.png) no-repeat center;
-    position: absolute;
-    background-size: cover;
-    top: -216px;
-    right: 0;
-    left: 0;
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-}
-
-.production-main:after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 425px;
-    background: url(../img/cont-decor.png) no-repeat center;
-    position: absolute;
-    background-size: cover;
-    bottom: -216px;
-    right: 0;
-    left: 0;
+    .btn {
+        max-width: 214px;
+    }
 }
 
 .about-wrap .production-main {
     padding: 486px 0 616px 390px;
 }
 
-.about-wrap .production-main:after {
-    bottom: -36px;
-}
-
 .main-peod-img {
     position: absolute;
-    top: 225px;
+    top: 102px;
     right: -8px;
     max-width: 1157px;
     width: 100%;
@@ -68,6 +37,25 @@
     width: 82px;
     height: 103px;
     background: url(../img/leaf1.png) no-repeat center;
+}
+
+.production-decor {
+    max-width: 1605px;
+    width: 100%;
+    height: 1260px;
+    position: absolute;
+    top: -118px;
+    left: 50%;
+    background-image: url(../img/decor3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1800px) {
@@ -128,9 +116,6 @@
     .about-wrap .production-main {
         padding: 128px 20px 450px 20px;
     }
-    .production-main:before {
-        top: -300px;
-    }
     .production-main p {
         width: 100%;
     }
@@ -138,9 +123,6 @@
         position: static;
         float: right;
         margin-right: -20px;
-    }
-    .production-main:after {
-        bottom: -300px;
     }
 }
 
@@ -156,21 +138,6 @@
     }
     .about-wrap .production-main {
         padding: 128px 20px 550px 20px;
-    }
-    .production-main:before {
-        top: -25px;
-        height: 105px;
-        background-size: contain;
-    }
-    .about-wrap .production-main:after {
-        bottom: -55px;
-        height: 105px;
-        background-size: contain;
-    }
-    .production-main:after {
-        bottom: -55px;
-        height: 105px;
-        background-size: contain;
     }
     .about-wrap .production-main {
         padding: 128px 20px 80px 20px;

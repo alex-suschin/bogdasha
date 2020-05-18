@@ -1,30 +1,50 @@
 .main-top {
     position: relative;
-    padding: 183px 0 357px 408px;
-    background: url(../img/top-decor.png) no-repeat center;
-    z-index: 5;
+    padding: 268px 0 380px 366px;
+    // background: url(../img/top-decor.png) no-repeat center;
+    z-index: 6;
     .title {
-        margin-bottom: 37px;
+        margin-bottom: 32px;
+        line-height: 120%;
     }
     p {
-        width: 38%;
+        width: 42%;
     }
     .btn {
         max-width: 186px;
-        margin-top: 42px;
+        margin-top: 32px;
     }
 }
 
 .top-img {
     position: absolute;
-    top: 114px;
-    right: 79px;
-    max-width: 923px;
+    top: 134px;
+    right: -8px;
+    max-width: 945px;
     width: 100%;
-    height: 849.55px;
+    height: 773px;
     background: url(../img/top-img.png) no-repeat center;
     background-size: cover;
     z-index: -1;
+}
+
+.top-decor {
+    max-width: 1646px;
+    width: 100%;
+    height: 896px;
+    position: absolute;
+    top: 79px;
+    left: 50%;
+    background-image: url(../img/decor1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1860px) {

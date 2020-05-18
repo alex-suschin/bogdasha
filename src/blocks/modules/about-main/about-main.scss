@@ -1,6 +1,7 @@
 .about-main {
-    padding: 170px 0 432px 0;
+    padding: 125px 0 510px 0;
     position: relative;
+    background: #FCFAFA;
     z-index: 5;
     .title {
         margin-bottom: 48px;
@@ -10,24 +11,80 @@
     }
 }
 
+.about-main::before {
+    content: '';
+    display: block;
+    height: 196px;
+    width: 100%;
+    background: url(../img/cont-decor.png) no-repeat center;
+    position: absolute;
+    background-size: cover;
+    top: -45px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.about-main::after {
+    content: '';
+    display: block;
+    height: 196px;
+    width: 100%;
+    background: url(../img/cont-decor.png) no-repeat center;
+    position: absolute;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
 .about-main__box-info {
     float: right;
     width: 49.25%;
-    padding: 0 340px 0 0;
+    padding: 221px 340px 0 0;
     .btn {
-        margin-top: 26px;
+        margin-top: 32px;
+    }
+    .title {
+        margin-bottom: 32px;
     }
 }
 
 .about-main-img {
     position: absolute;
-    left: -9px;
-    top: 67px;
-    max-width: 1156px;
+    left: 370px;
+    top: 203px;
+    max-width: 565.5px;
     width: 100%;
-    height: 757px;
+    height: 654px;
     background: url(../img/about-img-main.png) no-repeat center;
+    background-size: contain;
     z-index: -1;
+}
+
+.about-decor {
+    max-width: 1467px;
+    width: 100%;
+    height: 554px;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    background-image: url(../img/decor2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1860px) {
