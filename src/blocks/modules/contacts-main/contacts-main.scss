@@ -2,6 +2,7 @@
     position: relative;
     padding: 266px 0 553px 366px;
     z-index: 5;
+    overflow: hidden;
     .title {
         margin-bottom: 26px;
     }
@@ -46,15 +47,12 @@
     height: 764px;
     position: absolute;
     top: 33px;
-    left: 53.5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     background-image: url(../img/decor5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
 }

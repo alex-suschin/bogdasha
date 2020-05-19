@@ -1,13 +1,6 @@
-modules.define('about-main', ['i-bem-dom'], function(provide, bemDom) {
-
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
+$(function() {
+    $('.about-decor').parallax({
+        mouseport: $('.about-main'),
+        decay: 0.5
+    });
 });

@@ -2,6 +2,7 @@
     padding: 262px 0 270px 0;
     background: #FCFAFA;
     position: relative;
+    overflow: hidden;
     z-index: 4;
     .title {
         text-align: center;
@@ -88,17 +89,14 @@
     height: 796px;
     position: absolute;
     top: 320px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     background-image: url(../img/decor4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
 }
 
 .about-wrap .cooperation-decor {

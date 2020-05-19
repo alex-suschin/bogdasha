@@ -1,13 +1,6 @@
-modules.define('cooperation-main', ['i-bem-dom'], function(provide, bemDom) {
-
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
+$(function() {
+    $('.cooperation-decor').parallax({
+        mouseport: $('.cooperation-main'),
+        decay: 0.5
+    });
 });

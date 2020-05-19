@@ -1,6 +1,7 @@
 .about-main {
     padding: 125px 0 510px 0;
     position: relative;
+    overflow: hidden;
     background: #FCFAFA;
     z-index: 5;
     .title {
@@ -8,6 +9,15 @@
     }
     .btn {
         max-width: 200px;
+    }
+    .grass-img {
+        width: 195px;
+        height: 152px;
+        position: absolute;
+        bottom: 322px;
+        right: 514px;
+        background: url(../img/grass-img.png) no-repeat center;
+        background-size: cover;
     }
 }
 
@@ -74,17 +84,14 @@
     height: 554px;
     position: absolute;
     top: 370px;
-    left: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     background-image: url(../img/decor2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1860px) {

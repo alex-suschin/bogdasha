@@ -31,6 +31,13 @@ $(function() {
         e.preventDefault();
     });
 
+    $(function() {
+        $('.contacts-page-decor').parallax({
+            mouseport: $('.contacts-page-box'),
+            decay: 0.5
+        });
+    });
+
     $('input[type=tel]').bind("change keyup input click", function() {
         if (this.value.match(/[^\+0-9]/g)) {
             this.value = this.value.replace(/[^\+0-9]/g, '');

@@ -1,13 +1,6 @@
-modules.define('production-main', ['i-bem-dom'], function(provide, bemDom) {
-
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
+$(function() {
+    $('.production-decor').parallax({
+        mouseport: $('.production-main'),
+        decay: 0.5
+    });
 });

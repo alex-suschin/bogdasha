@@ -1,13 +1,6 @@
-modules.define('partners-items', ['i-bem-dom'], function(provide, bemDom) {
-
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
+$(function() {
+    $('.partners-decor').parallax({
+        mouseport: $('.partners-top'),
+        decay: 0.5
+    });
 });

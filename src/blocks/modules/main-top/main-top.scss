@@ -2,6 +2,7 @@
     position: relative;
     padding: 268px 0 380px 366px;
     // background: url(../img/top-decor.png) no-repeat center;
+    overflow: hidden;
     z-index: 6;
     .title {
         margin-bottom: 32px;
@@ -13,6 +14,15 @@
     .btn {
         max-width: 186px;
         margin-top: 32px;
+    }
+    .grass-img {
+        width: 195px;
+        height: 152px;
+        position: absolute;
+        bottom: 142px;
+        left: 333px;
+        background: url(../img/grass-img.png) no-repeat center;
+        background-size: cover;
     }
 }
 
@@ -34,17 +44,14 @@
     height: 896px;
     position: absolute;
     top: 79px;
-    left: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     background-image: url(../img/decor1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1860px) {

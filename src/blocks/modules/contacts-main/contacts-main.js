@@ -1,13 +1,6 @@
-modules.define('contacts-main', ['i-bem-dom'], function(provide, bemDom) {
-
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
+$(function() {
+    $('.contacts-decor').parallax({
+        mouseport: $('.contacts-box'),
+        decay: 0.5
+    });
 });
