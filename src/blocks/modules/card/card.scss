@@ -1,0 +1,223 @@
+.card-wrap {
+    padding: 89px 0 0 0;
+}
+
+.card-product-box {
+    margin-bottom: 113px;
+}
+
+.card-slider {
+    position: relative;
+    height: 503px;
+}
+
+.card-slider__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-slider__item-left {
+    width: 49%;
+    img {
+        margin: 0 auto;
+    }
+}
+
+.card-slider__item-right {
+    width: 51%;
+    padding: 7px 0 0 0;
+    .title {
+        font-weight: 800;
+        font-size: 29px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #613A2D;
+        margin-bottom: 74px;
+    }
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 26px;
+    li {
+        position: relative;
+        margin-right: 45px;
+    }
+    li::after {
+        content: '•';
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 100%;
+        color: #613A2D;
+        position: absolute;
+        top: 2.5px;
+        right: -25px;
+    }
+    li:last-child {
+        margin-right: 0;
+    }
+    li:last-child::after {
+        content: none;
+    }
+    li:first-child a {
+        background: url(../img/svg/arr-crumbs.svg) no-repeat left center;
+        padding: 0 0 0 46px;
+    }
+    a {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 110%;
+        color: #613A2D;
+    }
+}
+
+.variables-product {
+    position: absolute;
+    top: 103px;
+    left: 696px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 35px;
+    a {
+        display: block;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        color: #B18D7D;
+        margin-right: 41px;
+    }
+    a:last-child {
+        margin-right: 0;
+    }
+    a.active-prod {
+        color: #613A2D;
+    }
+    a:hover {
+        color: #613A2D;
+    }
+}
+
+.card-info {
+    padding: 36px 20px 21px 43px;
+    background: #FCFAFA;
+    border-radius: 12px;
+    max-width: 426px;
+    width: 100%;
+}
+
+.card-info--title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 110%;
+    color: #B18D7D;
+    margin-bottom: 3px;
+}
+
+.card-info--text {
+    margin-bottom: 19px;
+    b {
+        display: block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 124%;
+        color: #613A2D;
+    }
+}
+
+.card-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 256px;
+    margin-bottom: 102px;
+}
+
+.card-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .card-tab-img {
+        position: relative;
+        height: 139px;
+        width: 100%;
+        margin-bottom: 26px;
+    }
+    .card-tab-img img {
+        position: absolute;
+        top: initial;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    span {
+        background: transparent;
+        border-radius: 12px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: center;
+        color: #613A2D;
+        padding: 10px 30px 10px 30px;
+        transition: all .1s linear;
+        -webkit-transition: all .1s linear;
+        -moz-transition: all .1s linear;
+        -ms-transition: all .1s linear;
+        -o-transition: all .1s linear;
+    }
+}
+
+.card-tab.active {
+    span {
+        background: #F9E1CD;
+    }
+}
+
+.card-tab:hover span {
+    background: #F9E1CD;
+}
+
+.card-arr-prev,
+.card-arr-next {
+    background-color: #FCFAFA;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 36.6%;
+    cursor: pointer;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    z-index: 8;
+}
+
+.card-arr-prev:hover,
+.card-arr-next:hover {
+    background-color: #F9E1CD;
+}
+
+.card-arr-prev {
+    background-image: url(../img/svg/prev.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.card-arr-next {
+    background-image: url(../img/svg/next.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 0;
+}
