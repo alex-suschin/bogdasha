@@ -1,13 +1,5 @@
-modules.define('catalog', ['i-bem-dom'], function(provide, bemDom) {
+$(function() {
 
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
+
 
 });
