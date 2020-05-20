@@ -11,8 +11,8 @@ $(function() {
 
         if (width > '475') {
 
-            $(".bottom-menu").insertAfter($(".footer-top .logo"));
-            $(".social-footer").insert($(".footer-bottom"));
+            // $(".bottom-menu").insertAfter($(".footer-top .logo"));
+            // $(".social-footer").insert($(".footer-bottom"));
         }
     });
 
