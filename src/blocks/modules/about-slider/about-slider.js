@@ -10,7 +10,13 @@ $(function() {
         variableWidth: true,
         speed: 400,
         cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1)",
-        asNavFor: '.slider-about-bottom'
+        asNavFor: '.slider-about-bottom',
+        responsive: [{
+            breakpoint: 476,
+            settings: {
+                variableWidth: false
+            }
+        }]
     });
 
     $('.slider-about-bottom').slick({

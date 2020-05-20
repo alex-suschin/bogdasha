@@ -185,4 +185,7 @@
         left: 38px;
         z-index: -1;
     }
+    .about-wrap .production-main::after {
+        content: none;
+    }
 }
