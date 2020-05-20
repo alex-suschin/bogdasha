@@ -96,25 +96,48 @@
 
 @media screen and (max-width: 1860px) {
     .about-main-img {
-        left: -60px;
+        top: 88px;
     }
     .about-main__box-info {
         float: right;
         width: 38.25%;
-        padding: 0 50px 0 0;
+        padding: 163px 50px 0 0;
+    }
+    .about-main .grass-img {
+        right: 214px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .about-main-img {
+        left: 180px;
     }
 }
 
 @media screen and (max-width: 1440px) {
-    .about-main-img {
-        max-width: 900px;
-        width: 100%;
-        top: 117px;
-        height: 590px;
-        background-size: contain;
-    }
     .about-main__box-info {
         width: 44%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .about-decor {
+        display: none;
+    }
+    .about-main-img {
+        max-width: 414.5px;
+        width: 100%;
+        height: 480px;
+    }
+    .about-main-img {
+        top: 200px;
+        left: 50px;
+    }
+    .about-main {
+        padding: 125px 0 275px 0;
+    }
+    .grass-img {
+        display: none;
     }
 }
 
@@ -123,7 +146,7 @@
         max-width: 600px;
         height: 397px;
         left: -25px;
-        top: 50%;
+        top: 59%;
         transform: translateY(-65%);
         -webkit-transform: translateY(-65%);
         -moz-transform: translateY(-65%);
@@ -131,7 +154,7 @@
         -o-transform: translateY(-65%);
     }
     .about-main {
-        padding: 0 0 140px 0;
+        padding: 100px 0 225px 0;
     }
 }
 
@@ -142,9 +165,12 @@
         padding: 0;
     }
     .about-main {
-        padding: 35px 20px 50px 20px;
+        padding: 150px 20px 150px 20px;
         display: flex;
         flex-direction: column-reverse;
+    }
+    .about-main::after {
+        bottom: -60px;
     }
     .about-main-img {
         position: static;
@@ -160,9 +186,27 @@
 
 @media screen and (max-width: 475px) {
     .about-main-img {
-        max-width: 300px;
+        max-width: 241px;
         width: 100%;
-        height: 197px;
+        height: 220px;
+        background: url(../img/about-img-main-mob.png) no-repeat center;
         background-size: cover;
+    }
+    .about-main {
+        padding: 116px 20px 123px 20px;
+    }
+    .about-main__box-info .title {
+        margin-bottom: 21px;
+    }
+    .about-main__box-info .btn {
+        max-width: 167px;
+        margin-top: 36px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        padding: 14px 0 14px 0;
+    }
+    .about-main-img {
+        margin-top: 12px;
     }
 }

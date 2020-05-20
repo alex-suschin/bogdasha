@@ -19,6 +19,9 @@
 
 .card-slider__item-left {
     width: 49%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     img {
         margin: 0 auto;
     }
@@ -105,7 +108,7 @@
     padding: 36px 20px 21px 43px;
     background: #FCFAFA;
     border-radius: 12px;
-    max-width: 426px;
+    max-width: 485px;
     width: 100%;
 }
 
@@ -220,4 +223,9 @@
     background-position: center;
     background-repeat: no-repeat;
     right: 0;
+}
+
+.card-product-box.hidden-arrows .card-arr-prev,
+.card-product-box.hidden-arrows .card-arr-next {
+    display: none;
 }

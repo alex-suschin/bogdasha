@@ -209,6 +209,9 @@ a.link::after {
     html {
         overflow-x: hidden;
     }
+    .ov-h body {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 760px) {
@@ -218,9 +221,15 @@ a.link::after {
 }
 
 @media screen and (max-width: 550px) {
-    p,
+    p {
+        font-weight: normal;
+        font-size: 14px!important;
+        line-height: 124%;
+    }
     a.link {
+        font-weight: 600;
         font-size: 16px!important;
+        line-height: 100%;
     }
     .cooperation-main .link::after {
         top: 0;
@@ -229,6 +238,8 @@ a.link::after {
 
 @media screen and (max-width: 475px) {
     .title {
-        font-size: 24px!important;
+        font-weight: 800;
+        font-size: 20px!important;
+        line-height: 120%;
     }
 }

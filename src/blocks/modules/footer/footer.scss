@@ -116,6 +116,9 @@
     .social-footer {
         margin-bottom: 25px;
     }
+    .bottom-menu {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 1250px) {
@@ -144,5 +147,46 @@
     }
     .info-footer span {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer {
+        padding: 40px 20px 67px 20px;
+    }
+    .footer-top {
+        margin: 0 -30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #FCFAFA;
+    }
+    .bottom-menu {
+        padding: 21px 0 22px 0;
+        border-bottom: 1px solid #FCFAFA;
+    }
+    .bottom-menu li {
+        margin: 0 0 20px 0;
+    }
+    .footer-bottom {
+        padding: 33px 0 0 0;
+    }
+    .info-footer a {
+        width: 69%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 27px;
+        text-align: left;
+    }
+    .info-footer span {
+        width: 69%;
+        display: block;
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 33px;
+    }
+    .info-footer .promo {
+        width: 69%;
+        display: block;
+        margin: 0 auto;
+        text-align: left;
     }
 }

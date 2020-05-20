@@ -7,6 +7,13 @@ $(function() {
         $('.card-product-box').find('.card-elem').removeClass('active-elem');
         $('#' + $(this).data('switch')).show();
         $('#' + $(this).data('switch')).addClass('active-elem');
+        var valid = $(this).attr('data-switch');
+        console.log(valid);
+        if (valid === 'prod-elem4' || valid === 'prod-elem5' || valid === 'prod-elem6') {
+            $('.card-product-box').addClass('hidden-arrows');
+        } else {
+            $('.card-product-box').removeClass('hidden-arrows');
+        }
     });
 
     $('.variables-product a').click(function() {
