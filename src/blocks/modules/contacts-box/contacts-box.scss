@@ -178,3 +178,83 @@
 .form-item:last-child {
     width: 100%;
 }
+
+@media screen and (max-width: 1480px) {
+    .contacts-page-box {
+        padding: 245px 50px 434px 100px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .contacts-page-box {
+        padding: 120px 20px 120px 20px;
+    }
+    .contacts-page-decor__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .popup {
+        margin: 135px 16px 100px;
+        padding: 47px 17px 38px 17px;
+    }
+    .contacts-page-box {
+        padding: 31px 20px 240px 20px;
+    }
+    .contacts-page-box .title {
+        margin-bottom: 18px;
+    }
+    .contacts-page-box .social-contacts {
+        margin-bottom: 12px;
+    }
+    .contacts-page-box a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .contacts-page-box .btn {
+        margin-top: 19px;
+        max-width: 173px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .contacts-page-box .mail-img {
+        top: 173px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .popup {
+        margin: 135px 16px 100px;
+        padding: 47px 17px 38px 17px;
+    }
+    .popup .form-item {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    .contacts-page-box form label {
+        font-size: 11px;
+        line-height: 120%;
+    }
+    .contacts-page-box form button.btn {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .contacts-page-box::after {
+        content: '';
+        display: block;
+        max-width: 240px;
+        width: 100%;
+        height: 290px;
+        background: url(../img/contacts-page-decor-mob.png) no-repeat center;
+        background-size: cover;
+        position: absolute;
+        top: 23px;
+        left: 44px;
+        z-index: -1;
+    }
+}
