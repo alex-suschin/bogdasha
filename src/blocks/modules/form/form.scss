@@ -40,3 +40,33 @@
         }
     }
 }
+
+@media screen and (max-width: 992px) {
+    .form-wrap {
+        padding: 47px 20px 47px 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .form-wrap .form-item {
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .title-popup {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .form-wrap form button.btn {
+        max-width: 100%;
+        margin-top: 6px;
+    }
+    .form-wrap form label {
+        font-size: 11px;
+        line-height: 120%;
+    }
+}
