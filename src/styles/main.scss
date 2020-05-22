@@ -137,6 +137,14 @@ img {
     clear: both;
 }
 
+.hidden {
+    opacity: 0;
+}
+
+.animated {
+    opacity: 1;
+}
+
 // .wrapper {
 //     position: relative;
 //     background: url(../img/decore.png) no-repeat center 80px;
@@ -223,6 +231,9 @@ a.link::after {
     }
     .ov-h body {
         margin-right: 0;
+    }
+    .hidden {
+        opacity: 1;
     }
 }
 
