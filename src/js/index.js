@@ -5,36 +5,53 @@ import "./import/jquery.event.frame";
 import "./import/viewportchecker";
 
 $(function() {
-    jQuery(document).ready(function() {
-        jQuery('.header').addClass("hidden").viewportChecker({
-            classToAdd: 'visible animated fadeInDown',
-            offset: 0
-        });
-        jQuery('.top-decor').addClass("hidden").viewportChecker({
-            classToAdd: 'visible animated slideInUp',
-            offset: 0
-        });
 
-        jQuery('.main-top .title').addClass("hidden").viewportChecker({
-            classToAdd: 'visible animated fadeInLeft',
-            offset: 100
-        });
+    $(window).on('load resize', function() {
+        var width = $(window).width();
+        if (width > '992') {
 
-        jQuery('.main-top p').addClass("hidden").viewportChecker({
-            classToAdd: 'visible animated fadeInRight',
-            offset: 100
-        });
+            jQuery(document).ready(function() {
+                jQuery('.header').addClass("hidden").viewportChecker({
+                    classToAdd: 'visible animated fadeInDown',
+                    offset: 0
+                });
 
-        jQuery('.main-top a').addClass("hidden").viewportChecker({
-            classToAdd: 'visible animated fadeInRight',
-            offset: 100
-        });
+                jQuery('.grass-img').addClass("hidden").viewportChecker({
+                    classToAdd: 'visible animated fadeInLeft',
+                    offset: 0
+                });
 
-        jQuery('.top-img').addClass("hidden").viewportChecker({
-            classToAdd: 'visible animated fadeInUpBig',
-            offset: 100
-        });
+                jQuery('.top-decor').addClass("hidden").viewportChecker({
+                    classToAdd: 'visible animated slideInUp',
+                    offset: 0
+                });
+
+                jQuery('.main-top .title').addClass("hidden").viewportChecker({
+                    classToAdd: 'visible animated fadeInLeft',
+                    offset: 100
+                });
+
+                jQuery('.main-top p').addClass("hidden").viewportChecker({
+                    classToAdd: 'visible animated fadeInRight',
+                    offset: 100
+                });
+
+                jQuery('.main-top a').addClass("hidden").viewportChecker({
+                    classToAdd: 'visible animated fadeInRight',
+                    offset: 100
+                });
+
+                jQuery('.top-img').addClass("hidden").viewportChecker({
+                    classToAdd: 'visible animated fadeInUpBig',
+                    offset: 100
+                });
 
 
+            });
+
+        }
     });
+
+
+
 });

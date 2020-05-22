@@ -20,10 +20,13 @@
 .card-slider__item-left {
     width: 49%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
+    max-height: 510px;
     img {
         margin: 0 auto;
+        max-height: inherit;
+        max-width: 62%;
     }
 }
 
@@ -157,6 +160,8 @@
         left: 0;
         bottom: 0;
         margin: auto;
+        min-width: 43px;
+        max-width: 56px;
     }
     span {
         background: transparent;
@@ -274,7 +279,7 @@
     }
     .card-slider__item-left {
         width: 100%;
-        height: 315px;
+        max-height: 350px;
     }
     .card-tabs {
         margin-top: 450px;
@@ -319,6 +324,13 @@
     }
     .card-tabs .slick-current span {
         background: #F9E1CD;
+    }
+    .card-slider__item-left {
+        height: 350px;
+    }
+    .card-slider__item-left img {
+        max-height: 100%;
+        max-width: 71%;
     }
 }
 
@@ -411,6 +423,7 @@
     .card-tab .card-tab-img img {
         max-height: 90px;
         max-width: 38px;
+        min-width: 28px;
     }
     .card-tabs .slick-list {
         padding: 0 20px 15px 20px;
@@ -428,6 +441,9 @@
     }
     .card-tab {
         margin: 0 6px;
+    }
+    .card-slider__item-left img {
+        max-width: 100%;
     }
     // .variables-product .slick-prev,
     // .variables-product .slick-next {
