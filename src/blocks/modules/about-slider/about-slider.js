@@ -31,11 +31,11 @@ $(function() {
         variableWidth: true
     });
 
-    $(function() {
-        $('.about-slider-decor').parallax({
-            mouseport: $('.about-slider'),
-            decay: 0.5
-        });
-    });
+    // $(function() {
+    //     $('.about-slider-decor').parallax({
+    //         mouseport: $('.about-slider'),
+    //         decay: 0.5
+    //     });
+    // });
 
 });

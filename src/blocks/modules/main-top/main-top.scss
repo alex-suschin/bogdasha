@@ -54,6 +54,57 @@
     z-index: -1;
 }
 
+.layer-decor {
+    position: absolute;
+}
+
+.main-top__layer1 {
+    top: 133px;
+    left: 188px;
+    background: url(../img/top-leaf1.png) no-repeat center;
+    width: 26px;
+    height: 13px;
+}
+
+.main-top__scene {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.main-top__layer2 {
+    bottom: 254px;
+    left: 116px;
+}
+
+.main-top__layer3 {
+    top: 0;
+    left: 0;
+}
+
+.main-top__layer4 {
+    top: 0;
+    left: 0;
+}
+
+.main-top__layer5 {
+    top: 0;
+    left: 0;
+}
+
+.main-top__layer6 {
+    top: 0;
+    left: 0;
+}
+
+.main-top__layer7 {
+    top: 0;
+    left: 0;
+}
+
 @media screen and (max-width: 1860px) {
     .main-top {
         padding: 183px 0 357px 208px;
