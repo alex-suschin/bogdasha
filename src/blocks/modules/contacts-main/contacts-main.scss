@@ -14,6 +14,15 @@
     }
 }
 
+#contacts-box__scene {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .address {
     font-weight: normal;
     font-size: 18px;
@@ -30,31 +39,26 @@
     margin-bottom: 23px;
 }
 
-.mail-img {
+.mail-img img {
+    max-width: 564px;
+    position: absolute;
+    top: 213px;
+    right: 418px;
+}
+
+.contacts-oblako-img img {
+    max-width: 953px;
     position: absolute;
     top: 33px;
     right: 100px;
-    max-width: 953px;
-    width: 100%;
-    height: 767px;
-    background: url(../img/mail.png) no-repeat center;
-    background-size: cover;
 }
 
-.contacts-decor {
-    max-width: 1478px;
-    width: 100%;
-    height: 764px;
+.contacts-decor img {
     position: absolute;
     top: 33px;
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-image: url(../img/decor5.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
 }
 
 @media screen and (max-width: 1860px) {
