@@ -137,6 +137,9 @@
 }
 
 @media screen and (max-width: 992px) {
+    #cooperation-vn__scene {
+        display: none;
+    }
     #production-main__scene {
         position: static;
     }
@@ -147,7 +150,8 @@
         padding: 30px 20px 235px 20px;
     }
     .about-wrap .production-main {
-        padding: 30px 20px 150px 20px;
+        padding: 30px 20px 235px 20px;
+        margin-bottom: 50px;
     }
     .production-main p {
         width: 100%;
@@ -186,6 +190,7 @@
     }
     .about-wrap .production-main {
         padding: 19px 20px 355px 20px;
+        margin-bottom: 0;
     }
     .production-main .title {
         margin-bottom: 21px;

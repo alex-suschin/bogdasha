@@ -19,3 +19,20 @@
     right: 0;
     margin: 0 auto;
 }
+
+.cooperation-main-img-mob {
+    display: none;
+    background: url(../img/cooperation-vn-img-mob.png) no-repeat center;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    max-width: 300px;
+    background-size: cover;
+    width: 100%;
+    height: 241px;
+}
+
+@media screen and (max-width: 992px) {
+    .cooperation-main-img-mob {
+        display: block;
+    }
+}
