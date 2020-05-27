@@ -10,15 +10,21 @@
     .btn {
         max-width: 200px;
     }
-    .grass-img {
-        width: 195px;
-        height: 152px;
+    .grass-img img {
         position: absolute;
-        bottom: 322px;
-        right: 514px;
-        background: url(../img/grass-img.png) no-repeat center;
-        background-size: cover;
+        max-width: 195px;
+        top: 0;
+        right: 150px;
     }
+}
+
+#about-main__scene {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .about-main::before {
@@ -66,32 +72,25 @@
     }
 }
 
-.about-main-img {
+.about-main-img img {
     position: absolute;
-    left: 370px;
-    top: 203px;
-    max-width: 565.5px;
-    width: 100%;
-    height: 654px;
-    background: url(../img/about-img-main.png) no-repeat center;
-    background-size: contain;
-    z-index: -1;
+    max-width: 566px;
+    top: 202px;
+    left: 371px;
 }
 
-.about-decor {
-    max-width: 1467px;
-    width: 100%;
-    height: 554px;
+.about-decor img {
     position: absolute;
-    top: 370px;
+    margin: 0 auto;
+    top: 369px;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    background-image: url(../img/decor2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
+}
+
+#about-main__scene .grass-img img {
+    top: initial;
+    right: 514px;
+    bottom: 322px;
 }
 
 .about-main-mob-decor {

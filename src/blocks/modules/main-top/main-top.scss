@@ -15,43 +15,64 @@
         max-width: 186px;
         margin-top: 32px;
     }
-    .grass-img {
-        width: 195px;
-        height: 152px;
+    .grass-img img {
         position: absolute;
         bottom: 142px;
         left: 333px;
-        background: url(../img/grass-img.png) no-repeat center;
-        background-size: cover;
     }
 }
 
-.top-img {
-    position: absolute;
-    top: 134px;
-    right: -8px;
+.top-img img {
     max-width: 945px;
-    width: 100%;
-    height: 773px;
-    background: url(../img/top-img1.png) no-repeat center;
-    background-size: cover;
-    z-index: -1;
+    position: absolute;
+    right: -8px;
+    top: 134px;
 }
 
-.top-decor {
-    max-width: 1646px;
+.layer-top {
+    height: 100%;
     width: 100%;
-    height: 896px;
+}
+
+.top-oblako img {
     position: absolute;
+    max-width: 961px;
+    right: -19px;
+    top: 128px;
+}
+
+.top-taburet img {
+    position: absolute;
+    max-width: 598px;
+    right: 256px;
+    top: 320px;
+}
+
+.top-text img {
+    position: absolute;
+    max-width: 144px;
+    right: 709px;
+    top: 159px;
+}
+
+.layer-top img {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.top-decor img {
+    position: absolute;
+    margin: 0 auto;
     top: 79px;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    background-image: url(../img/decor1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
 }
 
 .layer-decor {
@@ -66,7 +87,7 @@
     height: 13px;
 }
 
-.main-top__scene {
+#main-top__scene {
     position: absolute;
     top: 0;
     right: 0;

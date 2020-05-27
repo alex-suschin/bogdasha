@@ -4,20 +4,25 @@ import "./import/slick.min";
 // import "./import/jquery.event.frame";
 import "./import/viewportchecker";
 // import "./import/parallax";
-import Parallax from 'parallax-js'
+
+
+
 
 $(function() {
 
-    var scene = $('.main-top__scene').get(0);
-    var parallaxInstance = new Parallax(scene, {
-        relativeInput: true,
-        hoverOnly: true,
-        calibrateX: true,
-        calibrateY: true,
-        pointerEvents: true,
-        scalarX: 1.5,
-        scalarY: 1.5
-    });
+    // var scene = $('.main-top__scene').get(0);
+    // var parallaxInstance = new Parallax(scene, {
+    //     relativeInput: true,
+    //     hoverOnly: true,
+    //     calibrateX: true,
+    //     calibrateY: true,
+    //     pointerEvents: true,
+    //     scalarX: 1.5,
+    //     scalarY: 1.5
+    // });
+
+
+
 
 
 

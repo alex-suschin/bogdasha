@@ -1,6 +1,14 @@
-// $(function() {
-//     $('.about-decor').parallax({
-//         mouseport: $('.about-main'),
-//         decay: 0.5
-//     });
-// });
+import Parallax from 'parallax-js'
+$(function() {
+
+    var scene = document.getElementById('about-main__scene');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true,
+        hoverOnly: true,
+        calibrateX: true,
+        calibrateY: true,
+        scalarX: 1.5,
+        scalarY: 1.5
+    });
+
+});
