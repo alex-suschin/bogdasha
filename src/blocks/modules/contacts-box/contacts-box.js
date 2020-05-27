@@ -1,3 +1,4 @@
+import Parallax from 'parallax-js'
 $(function() {
 
     $('.btn-popup').click(function(e) {
@@ -31,12 +32,22 @@ $(function() {
         e.preventDefault();
     });
 
-    // $(function() {
-    //     $('.contacts-page-decor').parallax({
-    //         mouseport: $('.contacts-page-box'),
-    //         decay: 0.5
-    //     });
-    // });
+
+
+    $(function() {
+        var scene = document.getElementById('cooperation-main-decor__scene');
+        var parallaxInstance = new Parallax(scene, {
+            relativeInput: true,
+            hoverOnly: true,
+            calibrateX: true,
+            calibrateY: true,
+            scalarX: 1.5,
+            scalarY: 1.5
+        });
+
+
+    });
+
 
     $('input[type=tel]').bind("change keyup input click", function() {
         if (this.value.match(/[^\+0-9]/g)) {

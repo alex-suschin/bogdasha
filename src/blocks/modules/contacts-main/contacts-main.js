@@ -11,4 +11,14 @@ $(function() {
         scalarY: 1.5
     });
 
+    $(window).on('load resize scroll', function() {
+
+        var width = $(window).width();
+
+        if (width < '701') {
+            parallaxInstance.destroy();
+        }
+
+    });
+
 });

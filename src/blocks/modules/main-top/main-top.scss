@@ -126,6 +126,15 @@
     left: 0;
 }
 
+.main-top-img-mob {
+    display: none;
+    background: url(../img/top-img-mob.png) no-repeat right center;
+    background-size: contain;
+    max-width: 449px;
+    width: 100%;
+    height: 362px;
+}
+
 @media screen and (max-width: 1860px) {
     .main-top {
         padding: 183px 0 357px 208px;
@@ -163,12 +172,33 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .top-oblako img {
+        max-width: 670px;
+        right: 0;
+        top: 128px;
+    }
+    .top-text img {
+        right: 479px;
+        top: 106px;
+    }
+    .top-taburet img {
+        position: absolute;
+        max-width: 440px;
+        right: 161px;
+        top: 242px;
+    }
+}
+
 @media screen and (max-width: 1360px) {
     .top-decor {
         display: none;
     }
     .main-top {
         padding: 183px 25px 140px 50px;
+    }
+    .main-top .grass-img img {
+        bottom: 35px;
     }
 }
 
@@ -177,9 +207,23 @@
         background: none;
         padding: 75px 25px 75px 50px;
     }
-    .top-img {
-        top: 63px;
-        height: 430px;
+    // .top-img {
+    //     top: 63px;
+    //     height: 430px;
+    // }
+    .top-oblako img {
+        max-width: 430px;
+        right: 0;
+        top: 128px;
+    }
+    .top-taburet img {
+        max-width: 240px;
+        right: 125px;
+    }
+    .top-text img {
+        right: 305px;
+        top: 153px;
+        max-width: 80px;
     }
 }
 
@@ -203,6 +247,17 @@
 }
 
 @media screen and (max-width: 950px) {
+    #main-top__scene {
+        position: static;
+        display: none;
+    }
+    .main-top-img-mob {
+        display: block;
+        float: right;
+        margin-right: -20px;
+        position: relative;
+        z-index: -1;
+    }
     .main-top p {
         width: 100%;
         padding-right: 4px;
@@ -256,8 +311,17 @@
         background: url(../img/mob-decor1.png) no-repeat center;
         background-size: cover;
         position: absolute;
-        bottom: 0;
+        bottom: 22px;
         left: 28px;
         z-index: -1;
+    }
+    .main-top {
+        padding: 30px 20px 407px 20px;
+    }
+    .main-top-img-mob {
+        position: absolute;
+        font: none;
+        right: 0;
+        margin: 0;
     }
 }

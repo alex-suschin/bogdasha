@@ -111,6 +111,13 @@
     }
 }
 
+@media screen and (max-width: 1700px) {
+    .about-main-img img {
+        top: 60px;
+        left: 250px;
+    }
+}
+
 @media screen and (max-width: 1600px) {
     .about-main-img {
         left: 180px;
@@ -121,17 +128,22 @@
     .about-main__box-info {
         width: 44%;
     }
+    .about-main-img img {
+        top: 126px;
+        left: 50px;
+        max-width: 475px;
+    }
 }
 
 @media screen and (max-width: 1360px) {
     .about-decor {
         display: none;
     }
-    .about-main-img {
-        max-width: 414.5px;
-        width: 100%;
-        height: 480px;
-    }
+    // .about-main-img {
+    //     max-width: 414.5px;
+    //     width: 100%;
+    //     height: 480px;
+    // }
     .about-main-img {
         top: 200px;
         left: 50px;
@@ -142,26 +154,40 @@
     .grass-img {
         display: none;
     }
+    #about-main__scene .grass-img img {
+        top: initial;
+        right: 214px;
+        bottom: 150px;
+    }
 }
 
 @media screen and (max-width: 1250px) {
-    .about-main-img {
-        max-width: 600px;
-        height: 397px;
-        left: -25px;
-        top: 59%;
-        transform: translateY(-65%);
-        -webkit-transform: translateY(-65%);
-        -moz-transform: translateY(-65%);
-        -ms-transform: translateY(-65%);
-        -o-transform: translateY(-65%);
-    }
+    // .about-main-img {
+    //     max-width: 600px;
+    //     height: 397px;
+    //     left: -25px;
+    //     top: 59%;
+    //     transform: translateY(-65%);
+    //     -webkit-transform: translateY(-65%);
+    //     -moz-transform: translateY(-65%);
+    //     -ms-transform: translateY(-65%);
+    //     -o-transform: translateY(-65%);
+    // }
     .about-main {
         padding: 100px 0 225px 0;
+    }
+    #about-main__scene .grass-img img {
+        bottom: 72%;
     }
 }
 
 @media screen and (max-width: 992px) {
+    #about-main__scene {
+        position: static;
+    }
+    .about-main-img img {
+        position: static;
+    }
     .about-main__box-info {
         width: 100%;
         float: none;
@@ -170,7 +196,7 @@
     .about-main {
         padding: 150px 20px 150px 20px;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .about-main::after {
         bottom: -60px;
@@ -187,6 +213,12 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .about-main-img img {
+        max-width: 323px;
+    }
+}
+
 @media screen and (max-width: 475px) {
     .about-main-img {
         max-width: 241px;
@@ -194,6 +226,9 @@
         height: 220px;
         background: url(../img/about-img-main-mob.png) no-repeat center;
         background-size: cover;
+    }
+    .about-main-img img {
+        display: none;
     }
     .about-main::before {
         top: -100px;

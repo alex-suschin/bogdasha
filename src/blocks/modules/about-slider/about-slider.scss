@@ -23,6 +23,15 @@
     width: 60%;
 }
 
+#contacts-box__scene {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .about-slider-box::after {
     content: '';
     display: block;
@@ -105,20 +114,12 @@
     outline: none;
 }
 
-.about-slider-decor {
-    max-width: 1703px;
-    width: 100%;
-    height: 723px;
+.about-slider-decor img {
     position: absolute;
     top: 59px;
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-image: url(../img/vn-slider-decor.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
 }
 
 @media screen and (max-width: 1860px) {

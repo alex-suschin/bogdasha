@@ -33,27 +33,17 @@
     }
 }
 
-.contacts-page-decor {
-    max-width: 1703px;
-    width: 100%;
-    height: 744px;
+.contacts-page-decor {}
+
+.contacts-page-decor img {
     position: absolute;
-    top: 96px;
-    margin: 0 auto;
-    left: 0;
     right: 0;
-    overflow: hidden;
-    z-index: -1;
+    left: 0;
+    margin: 0 auto;
 }
 
-.contacts-page-decor__img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/decor-contacts-page.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.contacts-oblako-img {
+    z-index: -1;
 }
 
 .popup-wrap {

@@ -1,5 +1,5 @@
 .partners-top {
-    padding: 115px 350px 89px 322px;
+    padding: 140px 350px 89px 322px;
     position: relative;
     z-index: 5;
     p a {
@@ -11,6 +11,29 @@
     .title {
         margin-bottom: 32px;
     }
+}
+
+#partners-top__scene {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#partners-top__scene .cooperation-vn-oblako img {
+    left: 318px;
+    top: 116px;
+    right: initial;
+    margin: initial;
+}
+
+#partners-top__scene .cooperation-vn-cat img {
+    left: 439px;
+    top: 160px;
+    right: initial;
+    margin: initial;
 }
 
 .partners-top-img {
@@ -59,27 +82,14 @@
     padding: 25px 0 0 33px;
 }
 
-.partners-decor {
-    max-width: 1703px;
-    width: 100%;
-    height: 640px;
-    overflow: hidden;
+.partners-decor {}
+
+.partners-decor img {
     position: absolute;
-    top: 45px;
-    z-index: -1;
-    margin: 0 auto;
     left: 0;
     right: 0;
-}
-
-.partners-decor__img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/partners-decor.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    top: 50px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1810px) {

@@ -1,7 +1,6 @@
 import Parallax from 'parallax-js'
 $(function() {
-
-    var scene = document.getElementById('production-main__scene');
+    var scene = document.getElementById('cooperation-vn__scene');
     var parallaxInstance = new Parallax(scene, {
         relativeInput: true,
         hoverOnly: true,
@@ -25,11 +24,10 @@ $(function() {
 
         var width = $(window).width();
 
-        if (width < '993') {
+        if (width < '992') {
             parallaxInstance.destroy();
             parallaxInstance2.destroy();
         }
 
     });
-
 });

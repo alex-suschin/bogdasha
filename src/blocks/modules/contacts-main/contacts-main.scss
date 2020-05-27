@@ -61,6 +61,16 @@
     margin: 0 auto;
 }
 
+.contacts-box-img-mob {
+    display: none;
+    background: url(../img/mail-mob.png) no-repeat right center;
+    background-size: contain;
+    max-width: 488px;
+    width: 100%;
+    height: 291px;
+    float: right;
+}
+
 @media screen and (max-width: 1860px) {
     .contacts-box {
         padding: 266px 0 553px 208px;
@@ -68,17 +78,29 @@
 }
 
 @media screen and (max-width: 1700px) {
-    .mail-img {
+    // .mail-img {
+    //     max-width: 650px;
+    //     width: 100%;
+    //     height: 554px;
+    //     top: 0;
+    // }
+    .contacts-oblako-img img {
         max-width: 650px;
-        width: 100%;
-        height: 554px;
-        top: 0;
     }
     .contacts-box {
         padding: 130px 0 325px 208px;
     }
     .contacts-decor {
         height: 595px;
+    }
+    .mail-img img {
+        max-width: 318px;
+        position: absolute;
+        top: 205px;
+        right: 366px;
+    }
+    .contacts-decor img {
+        top: 0;
     }
 }
 
@@ -95,12 +117,18 @@
 }
 
 @media screen and (max-width: 1250px) {
-    .mail-img {
-        max-width: 450px;
-        width: 100%;
-        height: 383px;
-        top: 56px;
+    // .mail-img {
+    //     max-width: 450px;
+    //     width: 100%;
+    //     height: 383px;
+    //     top: 56px;
+    //     right: 0;
+    // }
+    .contacts-oblako-img img {
         right: 0;
+    }
+    .mail-img img {
+        right: 250px;
     }
 }
 
@@ -111,6 +139,19 @@
     }
     .contacts-box {
         padding: 100px 20px 375px 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contacts-box-img-mob {
+        display: block;
+        margin-right: -20px;
+    }
+    #contacts-box__scene {
+        display: none;
+    }
+    .contacts-box {
+        padding: 100px 20px 135px 20px;
     }
 }
 
@@ -165,5 +206,12 @@
         top: 79px;
         left: 34px;
         z-index: -1;
+    }
+    .contacts-box-img-mob {
+        float: none;
+        bottom: 107px;
+        margin: 0;
+        position: absolute;
+        right: 0;
     }
 }

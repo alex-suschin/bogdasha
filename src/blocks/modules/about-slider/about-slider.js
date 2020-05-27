@@ -1,4 +1,5 @@
-// import "../../../js/import/slick.min"
+import "../../../js/import/slick.min"
+import Parallax from 'parallax-js'
 
 $(function() {
 
@@ -31,11 +32,14 @@ $(function() {
         variableWidth: true
     });
 
-    // $(function() {
-    //     $('.about-slider-decor').parallax({
-    //         mouseport: $('.about-slider'),
-    //         decay: 0.5
-    //     });
-    // });
+    var scene = document.getElementById('contacts-box__scene');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true,
+        hoverOnly: true,
+        calibrateX: true,
+        calibrateY: true,
+        scalarX: 1.5,
+        scalarY: 1.5
+    });
 
 });
