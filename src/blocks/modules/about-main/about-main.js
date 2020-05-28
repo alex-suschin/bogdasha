@@ -2,7 +2,7 @@ import Parallax from 'parallax-js'
 $(function() {
 
     var scene = document.getElementById('about-main__scene');
-    var parallaxInstance = new Parallax(scene, {
+    var parallaxInstance5 = new Parallax(scene, {
         relativeInput: true,
         hoverOnly: true,
         calibrateX: true,
@@ -16,7 +16,7 @@ $(function() {
         var width = $(window).width();
 
         if (width < '993') {
-            parallaxInstance.destroy();
+            parallaxInstance5.destroy();
         }
 
     });

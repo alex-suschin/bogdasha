@@ -2,7 +2,7 @@ import Parallax from 'parallax-js'
 $(function() {
 
     var scene = document.getElementById('contacts-box__scene');
-    var parallaxInstance = new Parallax(scene, {
+    var parallaxInstance7 = new Parallax(scene, {
         relativeInput: true,
         hoverOnly: true,
         calibrateX: true,
@@ -15,8 +15,8 @@ $(function() {
 
         var width = $(window).width();
 
-        if (width < '701') {
-            parallaxInstance.destroy();
+        if (width < '993') {
+            parallaxInstance7.destroy();
         }
 
     });

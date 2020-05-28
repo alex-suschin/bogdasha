@@ -35,7 +35,7 @@ $(function() {
 
 
     $(function() {
-        var scene = document.getElementById('cooperation-main-decor__scene');
+        var scene = document.getElementById('contacts-page-decor__scene');
         var parallaxInstance = new Parallax(scene, {
             relativeInput: true,
             hoverOnly: true,
@@ -43,6 +43,16 @@ $(function() {
             calibrateY: true,
             scalarX: 1.5,
             scalarY: 1.5
+        });
+
+        $(window).on('load resize scroll', function() {
+
+            var width = $(window).width();
+
+            if (width < '993') {
+                parallaxInstance.destroy();
+            }
+
         });
 
 

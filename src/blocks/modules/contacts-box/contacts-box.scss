@@ -33,6 +33,15 @@
     }
 }
 
+#contacts-page-decor__scene {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .contacts-page-decor {}
 
 .contacts-page-decor img {
@@ -169,6 +178,18 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1700px) {
+    .contacts-page-box {
+        .contacts-oblako-img img {
+            top: 134px;
+        }
+        .mail-img img {
+            top: 279px;
+            right: 349px;
+        }
+    }
+}
+
 @media screen and (max-width: 1480px) {
     .contacts-page-box {
         padding: 245px 50px 434px 100px;
@@ -181,6 +202,13 @@
     }
     .contacts-page-decor__img {
         display: none;
+    }
+    .contacts-page-box .contacts-oblako-img img {
+        top: 10px;
+    }
+    .contacts-page-box .mail-img img {
+        top: 144px;
+        right: 256px;
     }
 }
 
@@ -216,6 +244,13 @@
 }
 
 @media screen and (max-width: 575px) {
+    .contacts-page-box #contacts-page-decor__scene {
+        display: none;
+    }
+    .contacts-page-box .mail-img {
+        float: right;
+        margin-right: -20px;
+    }
     .popup {
         margin: 135px 16px 100px;
         padding: 47px 17px 38px 17px;
@@ -230,6 +265,14 @@
     }
     .contacts-page-box form button.btn {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .contacts-page-box .mail-img {
+        margin: 0;
+        position: absolute;
+        right: 0;
     }
 }
 

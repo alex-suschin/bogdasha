@@ -2,7 +2,7 @@ import Parallax from 'parallax-js'
 $(function() {
 
     var scene = document.getElementById('cooperation-main__scene');
-    var parallaxInstance = new Parallax(scene, {
+    var parallaxInstance3 = new Parallax(scene, {
         relativeInput: true,
         hoverOnly: true,
         calibrateX: true,
@@ -12,7 +12,7 @@ $(function() {
     });
 
     var scene = document.getElementById('cooperation-main-decor__scene');
-    var parallaxInstance2 = new Parallax(scene, {
+    var parallaxInstance4 = new Parallax(scene, {
         relativeInput: true,
         hoverOnly: true,
         calibrateX: true,
@@ -26,8 +26,8 @@ $(function() {
         var width = $(window).width();
 
         if (width < '993') {
-            parallaxInstance.destroy();
-            parallaxInstance2.destroy();
+            parallaxInstance3.destroy();
+            parallaxInstance4.destroy();
         }
 
     });

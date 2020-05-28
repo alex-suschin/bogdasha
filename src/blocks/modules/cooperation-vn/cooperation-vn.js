@@ -24,7 +24,7 @@ $(function() {
 
         var width = $(window).width();
 
-        if (width < '992') {
+        if (width < '993') {
             parallaxInstance.destroy();
             parallaxInstance2.destroy();
         }
