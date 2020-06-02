@@ -7,8 +7,7 @@ $(function() {
         slidesToScroll: 1,
         arrows: true,
         infinite: true,
-        variableWidth: true,
-        speed: 300,
+        accessibility: false,
         asNavFor: '.slider-about-thumbs'
 
     });
@@ -18,10 +17,9 @@ $(function() {
         slidesToScroll: 1,
         arrows: false,
         centerMode: true,
-        infinite: true,
         variableWidth: true,
+        accessibility: false,
         swipeToSlide: true,
-        speed: 300,
         focusOnSelect: true,
         asNavFor: '.slider-about'
 

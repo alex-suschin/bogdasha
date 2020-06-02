@@ -149,7 +149,10 @@
         width: 100%;
     }
     .cooperation-main {
-        padding: 217px 0 100px 0;
+        padding: 217px 20px 100px 20px;
+    }
+    .about-wrap .cooperation-main {
+        padding: 20px 20px 100px 20px;
     }
 }
 
@@ -159,6 +162,12 @@
     }
     .leafs-decor {
         display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about-wrap .cooperation-main-img {
+        background-size: contain;
     }
 }
 
@@ -184,7 +193,7 @@
         content: none;
     }
     .about-wrap .cooperation-main {
-        padding: 45px 0 80px 0;
+        padding: 45px 20px 80px 20px;
     }
     .cooperation-main::before {
         top: -95px;
@@ -214,7 +223,10 @@
         z-index: -1;
     }
     .about-wrap .cooperation-main {
-        padding: 75px 0 80px 0;
+        padding: 56px 20px 75px 20px;
+    }
+    .about-wrap .cooperation-main p {
+        margin-bottom: 20px;
     }
     .about-wrap .cooperation-main-img {
         margin-bottom: 17px;
@@ -227,7 +239,7 @@
         background: url(../img/about-decor-mob3.png) no-repeat center;
         background-size: cover;
         position: absolute;
-        top: 97px;
+        top: 78px;
         left: 47px;
         z-index: -1;
     }
