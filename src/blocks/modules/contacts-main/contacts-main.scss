@@ -1,0 +1,176 @@
+.contacts-box {
+    position: relative;
+    padding: 266px 0 553px 0;
+    z-index: 5;
+    overflow: hidden;
+    .title {
+        margin-bottom: 26px;
+    }
+    a {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        color: #613A2D;
+    }
+}
+
+.address {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #613A2D;
+    margin-bottom: 24px;
+}
+
+.social-contacts {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #613A2D;
+    margin-bottom: 23px;
+}
+
+.mail-img {
+    position: absolute;
+    top: -215px;
+    right: 0;
+    max-width: 953px;
+    width: 100%;
+    height: 767px;
+    background: url(../img/mail.png) no-repeat center;
+    background-size: cover;
+}
+
+.contacts-decor {
+    max-width: 1478px;
+    width: 100%;
+    height: 764px;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-image: url(../img/decor5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1960px) {
+    .contacts-box {
+        position: relative;
+        padding: 266px 0 553px 366px;
+    }
+    .mail-img {
+        top: 33px;
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 1860px) {
+    .contacts-box {
+        padding: 266px 0 553px 208px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .mail-img {
+        max-width: 650px;
+        width: 100%;
+        height: 554px;
+        top: 0;
+    }
+    .contacts-box {
+        padding: 130px 0 325px 208px;
+    }
+    .contacts-decor {
+        height: 595px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .contacts-box {
+        padding: 130px 50px 325px 50px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .contacts-decor {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .mail-img {
+        max-width: 450px;
+        width: 100%;
+        height: 383px;
+        top: 56px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .mail-img {
+        top: 248px;
+        right: -55px;
+    }
+    .contacts-box {
+        padding: 100px 20px 375px 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .mail-img {
+        max-width: 320px;
+        width: 100%;
+        height: 291px;
+        top: 248px;
+        right: 0;
+        background: url(../img/mail-mob.png) no-repeat center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .contacts-box .title {
+        margin-bottom: 17px;
+    }
+    .address {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 14px;
+    }
+    .social-contacts {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 12px;
+    }
+    .contacts-box a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .mail-img {
+        top: 218px;
+    }
+    .contacts-box {
+        padding: 100px 20px 369px 20px;
+    }
+    .contacts-box::after {
+        content: '';
+        display: block;
+        max-width: 241px;
+        width: 100%;
+        height: 491px;
+        background: url(../img/mob-decor5.png) no-repeat center;
+        background-size: cover;
+        position: absolute;
+        top: 79px;
+        left: 34px;
+        z-index: -1;
+    }
+}

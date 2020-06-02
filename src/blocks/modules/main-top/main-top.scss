@@ -1,0 +1,208 @@
+.main-top {
+    position: relative;
+    padding: 268px 0 430px 0;
+    // background: url(../img/top-decor.png) no-repeat center;
+    overflow: hidden;
+    z-index: 6;
+    .title {
+        margin-bottom: 32px;
+        line-height: 120%;
+    }
+    p {
+        width: 42%;
+    }
+    .btn {
+        max-width: 186px;
+        margin-top: 32px;
+    }
+    .grass-img {
+        width: 195px;
+        height: 152px;
+        position: absolute;
+        bottom: -200px;
+        left: 345px;
+        background: url(../img/grass-img.png) no-repeat center;
+        background-size: cover;
+    }
+}
+
+.top-img {
+    position: absolute;
+    top: -134px;
+    right: 0;
+    max-width: 945px;
+    width: 100%;
+    height: 773px;
+    background: url(../img/top-img1.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.top-decor {
+    max-width: 1646px;
+    width: 100%;
+    height: 896px;
+    position: absolute;
+    top: -189px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-image: url(../img/decor1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1960px) {
+    .main-top {
+        padding: 268px 0 380px 366px;
+    }
+    .top-img {
+        top: 134px;
+        right: -8px;
+    }
+    .top-decor {
+        top: 79px;
+    }
+    .main-top .grass-img {
+        bottom: 142px;
+        left: 333px;
+    }
+}
+
+@media screen and (max-width: 1860px) {
+    .main-top {
+        padding: 183px 0 470px 208px;
+    }
+    .top-img {
+        right: -20px;
+    }
+    .main-top .grass-img {
+        left: 178px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .main-top {
+        padding: 183px 25px 430px 100px;
+    }
+    .main-top .grass-img {
+        left: 79px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .main-top {
+        padding: 183px 25px 405px 50px;
+        background-size: contain;
+    }
+    .top-img {
+        max-width: 650px;
+        width: 100%;
+        height: 599px;
+        background-size: contain;
+    }
+    .main-top .grass-img {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .top-decor {
+        display: none;
+    }
+    .main-top {
+        padding: 183px 25px 140px 50px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .main-top {
+        background: none;
+        padding: 75px 25px 75px 50px;
+    }
+    .top-img {
+        top: 63px;
+        height: 430px;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .top-img {
+        top: 109px;
+        max-width: 450px;
+        height: 360px;
+        right: 0;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-top {
+        padding: 30px 20px 45px 20px;
+    }
+    .main-top .title {
+        margin-bottom: 21px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .main-top p {
+        width: 100%;
+        padding-right: 4px;
+        box-sizing: border-box;
+        margin-bottom: 19px;
+    }
+    .top-img {
+        position: static;
+        max-width: 450px;
+        width: 100%;
+        height: 414px;
+        background-size: contain;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .main-top .btn {
+        max-width: 167px;
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        padding: 14px 0 14px 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .top-img {
+        max-width: 320px;
+        width: 115%;
+        height: 362px;
+        background: url(../img/top-img-mob.png) no-repeat center;
+        background-size: cover;
+        float: right;
+        margin: 0 -20px 0 0;
+        position: relative;
+        z-index: -2;
+        top: initial;
+        left: initial;
+        right: initial;
+        bottom: initial;
+    }
+    .main-top .btn {
+        margin-bottom: 38px;
+    }
+    .main-top::after {
+        content: '';
+        display: block;
+        max-width: 267px;
+        width: 100%;
+        height: 407px;
+        background: url(../img/mob-decor1.png) no-repeat center;
+        background-size: cover;
+        position: absolute;
+        bottom: 0;
+        left: 28px;
+        z-index: -1;
+    }
+}

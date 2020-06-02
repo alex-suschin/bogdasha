@@ -1,0 +1,72 @@
+.form-wrap {
+    background: #FCFAFA;
+    padding: 79px 15px 79px 15px;
+    form {
+        max-width: 843px;
+        width: 100%;
+        margin: 0 auto;
+        label {
+            display: block;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 120%;
+            color: #613A2D;
+            margin-bottom: 6px;
+        }
+        textarea {
+            background: #FFFFFF;
+            height: 42px;
+            border: 1px solid #E5DFDC;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 120%;
+            color: #613A2D;
+            outline: none;
+            width: 100%;
+            resize: none;
+            min-height: 144px;
+        }
+        button.btn {
+            outline: none;
+            cursor: pointer;
+            max-width: 191px;
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 19px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .form-wrap {
+        padding: 47px 20px 47px 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .form-wrap .form-item {
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .title-popup {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .form-wrap form button.btn {
+        max-width: 100%;
+        margin-top: 6px;
+    }
+    .form-wrap form label {
+        font-size: 11px;
+        line-height: 120%;
+    }
+}
